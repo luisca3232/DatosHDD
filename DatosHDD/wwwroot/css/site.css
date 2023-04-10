@@ -1,0 +1,28 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+#particles-js {
+    position: fixed;
+    height: 100%;
+    z-index: -1;
+    backdrop-filter: #ffffff;
+    width: 100% !important;
+}
+

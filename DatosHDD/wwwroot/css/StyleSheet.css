@@ -1,0 +1,78 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+    .navigation ul li {
+        margin: 20px;
+        color: white;
+        font-family: Roman;
+    }
+
+
+
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+    
+}
+
+.boxes {
+    border: 0.7px solid silver;
+    
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 0 0 10px silver;
+    transition: 300ms all;
+    background-size: cover;
+    background-position: center;
+    /*background-color: #334145; */
+}
+
+.box-content {
+    background-color: white;
+    padding: 10px 5px;
+    text-align: center !important;
+    width: 100%;
+    transition: 300ms all;
+}
+
+.boxes:hover {
+    transform: scale(1.1);
+}
+
+    h5{
+        font-size:15px!important ;
+    }
+
+
+   
+
+
+div#tabla2.containerLuis {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
